@@ -2,12 +2,17 @@
 //  WXRenderer.h
 //  1.DevicesAndCommands
 //
-//  Created by williamxie on 23/07/2017.
+//  Created by williamxie on 24/07/2017.
 //  Copyright © 2017 williamxie. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface WXRenderer : NSObject
+@import MetalKit;
+
+// Our platform independent render class
+@interface WXRenderer : NSObject<MTKViewDelegate>
+
+- (nonnull instancetype)initWithMetalKitView:(nonnull MTKView *)mtkView;
 
 @end
