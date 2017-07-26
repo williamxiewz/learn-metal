@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WXViewController.h
 //  2.HelloTriangle
 //
 //  Created by williamxie on 24/07/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WXViewController : UIViewController
 
 @end
-

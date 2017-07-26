@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0D6717E41F263D96006B6FDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6717E31F263D96006B6FDA /* AppDelegate.m */; };
-		0D6717E71F263D96006B6FDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6717E61F263D96006B6FDA /* ViewController.m */; };
 		0D6717EA1F263D96006B6FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6717E81F263D96006B6FDA /* Main.storyboard */; };
 		0D6717EC1F263D96006B6FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6717EB1F263D96006B6FDA /* Assets.xcassets */; };
 		0D6717EF1F263D96006B6FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6717ED1F263D96006B6FDA /* LaunchScreen.storyboard */; };
 		0D6717F21F263D96006B6FDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6717F11F263D96006B6FDA /* main.m */; };
+		0D6717FA1F263DE2006B6FDA /* WXRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6717F91F263DE2006B6FDA /* WXRenderer.m */; };
+		0D6717FD1F263DF0006B6FDA /* WXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6717FC1F263DF0006B6FDA /* WXViewController.m */; };
+		0D6717FF1F2645C8006B6FDA /* WXShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0D6717FE1F2645C8006B6FDA /* WXShaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D6717DF1F263D96006B6FDA /* 2.HelloTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.HelloTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6717E21F263D96006B6FDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D6717E31F263D96006B6FDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D6717E51F263D96006B6FDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D6717E61F263D96006B6FDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D6717E91F263D96006B6FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D6717EB1F263D96006B6FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D6717EE1F263D96006B6FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D6717F01F263D96006B6FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6717F11F263D96006B6FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D6717F81F263DE2006B6FDA /* WXRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXRenderer.h; sourceTree = "<group>"; };
+		0D6717F91F263DE2006B6FDA /* WXRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXRenderer.m; sourceTree = "<group>"; };
+		0D6717FB1F263DF0006B6FDA /* WXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXViewController.h; sourceTree = "<group>"; };
+		0D6717FC1F263DF0006B6FDA /* WXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXViewController.m; sourceTree = "<group>"; };
+		0D6717FE1F2645C8006B6FDA /* WXShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = WXShaders.metal; sourceTree = "<group>"; };
+		0D6718011F26460E006B6FDA /* WXShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXShaderTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				0D6717E21F263D96006B6FDA /* AppDelegate.h */,
 				0D6717E31F263D96006B6FDA /* AppDelegate.m */,
-				0D6717E51F263D96006B6FDA /* ViewController.h */,
-				0D6717E61F263D96006B6FDA /* ViewController.m */,
+				0D6717F81F263DE2006B6FDA /* WXRenderer.h */,
+				0D6717F91F263DE2006B6FDA /* WXRenderer.m */,
+				0D6717FB1F263DF0006B6FDA /* WXViewController.h */,
+				0D6717FC1F263DF0006B6FDA /* WXViewController.m */,
+				0D6717FE1F2645C8006B6FDA /* WXShaders.metal */,
+				0D6718011F26460E006B6FDA /* WXShaderTypes.h */,
 				0D6717E81F263D96006B6FDA /* Main.storyboard */,
 				0D6717EB1F263D96006B6FDA /* Assets.xcassets */,
 				0D6717ED1F263D96006B6FDA /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D6717E71F263D96006B6FDA /* ViewController.m in Sources */,
+				0D6717FF1F2645C8006B6FDA /* WXShaders.metal in Sources */,
 				0D6717F21F263D96006B6FDA /* main.m in Sources */,
+				0D6717FA1F263DE2006B6FDA /* WXRenderer.m in Sources */,
 				0D6717E41F263D96006B6FDA /* AppDelegate.m in Sources */,
+				0D6717FD1F263DF0006B6FDA /* WXViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
